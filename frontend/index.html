@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>VIRTUAL MUSEUM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Virtual Museum</h1>
+    </header>
+
+    <!--Galeria a ser preenchida via JS-->
+    <main id="galeria" class="grid"></main>
+
+    <!--Modal para detalhes da obra referente-->
+    <div id="modal" class="hidden">
+        <div calss="modal-content">
+            <span id="fechar">❌</span>
+            <img id="modal-img" />
+            <h2 id="modal-titulo"></h2>
+            <p id="modal-autor"></p>
+            <p id="modal-ano"></p>
+            <p id="modal-descricao"></p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

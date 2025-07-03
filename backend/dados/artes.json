@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "titulo": "O Grito",
+    "autor": "Edvard Munch",
+    "ano": 1893,
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Scream.jpg",
+    "descricao": "Expressa angústia e desespero de forma intensa e surreal."
+  },
+  {
+    "id": 2,
+    "titulo": "A Noite Estrelada",
+    "autor": "Vincent van Gogh",
+    "ano": 1889,
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "descricao": "Uma das obras mais famosas de Van Gogh, mostrando a vista noturna da sua janela no asilo."
+  },
+  {
+    "id": 3,
+    "titulo": "Monalisa",
+    "autor": "Leonardo da Vinci",
+    "ano": 1503,
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mona_Lisa.jpg",
+    "descricao": "Talvez o retrato mais icônico da história da arte ocidental."
+  }
+]
