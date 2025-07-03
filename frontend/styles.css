@@ -62,7 +62,7 @@ body {
 }
 /* imagem vertical (retrato) */
 .modal-content img.vertical {
-    max-height: 60vh;   /* continua limtado */
+    max-height: 60vh;   /* continua limitado */
     max-width: 30%;     /* encolhe horizontalmente */
 }
 
