@@ -6,6 +6,12 @@ body {
     color: #eee;
 }
 
+h1{
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -51,19 +57,18 @@ body {
     overflow-y: auto;
     text-align: center;
 }
-/* imagem default (paisagem) */
-.modal-content img {
-    width: auto !important;
-    height: auto;
-    max-width: 90vh;
-    max-height: 60vh;
+
+#modal-img {
+    width: auto ;
+    height: auto ;
+    max-width: 90vw;
+    max-height: 60vh; 
     object-fit: contain;
     border-radius: 6px;
 }
-/* imagem vertical (retrato) */
-.modal-content img.vertical {
-    max-height: 60vh;   /* continua limitado */
-    max-width: 30%;     /* encolhe horizontalmente */
+
+#modal-img.vertical {
+    max-width: 45vw;
 }
 
 #fechar { 

@@ -26,35 +26,30 @@ function addCard(arte) {
   card.className = "card";
   card.innerHTML = `
     <img src="${arte.imagem}" alt="${arte.titulo}">
-    <h3>${arte.titulo}</h3>
-  `;
+    <h3>${arte.titulo}</h3>`;
   card.addEventListener("click", () => openModal(arte));
   galeria.appendChild(card);
 }
 
 function openModal(arte) {
-  // limpa classe antiga
-  modalImg.classList.remove("vertical");
+  // zera classe anterior
+  modalImg.className = "";
 
-  // seta SRC
   modalImg.src = arte.imagem;
 
-  // callback que decide orientação
   const setOrientation = () => {
     if (modalImg.naturalHeight > modalImg.naturalWidth) {
       modalImg.classList.add("vertical");  // retrato
     }
   };
 
-  // se a imagem ainda estiver carregando
-  if (!modalImg.complete) {
-    modalImg.onload = setOrientation;
-  } else {
-    // já veio do cache → calcula já
+  // roda já ou no onload (cache safe)
+  if (modalImg.complete) {
     setOrientation();
+  } else {
+    modalImg.onload = setOrientation;
   }
 
-  // preenche os textos
   modalTitulo.textContent    = arte.titulo;
   modalAutor.textContent     = `Autor: ${arte.autor}`;
   modalAno.textContent       = `Ano: ${arte.ano}`;
