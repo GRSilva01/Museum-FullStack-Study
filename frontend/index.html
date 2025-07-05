@@ -8,6 +8,22 @@
 <body>
     <header>
         <h1>Virtual Museum</h1>
+        <input type="text" id="busca" placeholder="search..." autocomplete="off">
+        <button id="botaoFiltros">Filter ⬇️</button>
+
+        <div id="painelFiltros">
+            <select id="filtroAutor">
+                <option value="">Autor (todos)</option>
+            </select>
+
+            <select id="filtroSeculo">
+                <option value="">Século (todos)</option>
+            </select>
+
+            <select id="filtroLocal">
+                <option value="">Local (todos)</option>
+            </select>
+        </div>
     </header>
 
     <!--Galeria a ser preenchida via JS-->
