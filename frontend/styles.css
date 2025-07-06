@@ -4,6 +4,8 @@ body {
     font-family: Tahoma;
     background: #111;
     color: #eee;
+    background-color: #111;
+    color: #eee;
 }
 
 h1{
@@ -148,5 +150,70 @@ select:focus {
     border-color: #666;
     background-color: #333;
     color: #eee;
+}
+
+
+/*=================== Formulario ======================*/
+
+#authArea {
+    background-color: #222;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.4);
+    width: 100%;
+    max-width: 400px;
+}
+
+#authArea h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form input {
+    padding: 0.8rem;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    color: #eee;
+    font-size: 1rem;
+}
+form input:focus {
+    outline: none;
+    border-color: #888;
+    background-color: #222;
+}
+
+form button {
+    padding: 0.8rem;
+    background-color: #666;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+authMsg {
+    margin-top: 1rem;
+    text-align: center;
+    color: #f55;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
 }
 
