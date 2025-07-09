@@ -85,6 +85,14 @@ header {
     gap: 1rem;
 }
 
+#filtroBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 1rem 0;
+}
+
 #busca {
     padding: 0.6rem 1rem; 
     border: none; 
