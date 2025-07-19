@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     logoutBotao.addEventListener('click', () => {
         localStorage.removeItem('userEmail');
         localStorage.removeItem('userId');
+        localStorage.removeItem('usuarioLogado');
         window.location.href = '../../index.html';
     });
 });

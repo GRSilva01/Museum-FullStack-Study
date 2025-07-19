@@ -243,3 +243,24 @@ authMsg { margin-top: 1rem;
 }
 
 #logoutBotao:hover { background-color: #333;}
+
+.nav-button {
+    background-color: #444;
+    color: #eee;
+    padding: 0.3rem 1.2rem;
+    margin: 0.2rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Tahoma;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    display: inline-block;
+}
+
+.nav-button:hover {
+    background-color: #666;
+    color: #fff;
+}

@@ -14,6 +14,7 @@ const modalDescricao = document.getElementById("modal-descricao");
 const buscaInput = document.getElementById('busca');
 
 buscaInput.addEventListener('input', filtrarGaleria);
+
 const botaoFiltros = document.getElementById('botaoFiltros');
 const painelFiltros = document.getElementById('painelFiltros');
 let artes = [];
@@ -185,77 +186,3 @@ modal.addEventListener("click", e => {
   if (e.target === modal) modal.classList.add("hidden");
 });
 
-
-// script para carregar o header
-
-
-//Caminho para achar o header
-
-function caminhoHeader() {
-  const path = window.location.pathname;
-  const depth = path.split('/').length - 2;
-  const up = '../'.repeat(depth);
-  return `${up}nav/header.html`;
-}
-
-function carregarHeader() {
-  let headerContainer = document.getElementById('header');
-  if (!headerContainer){
-    headerContainer = document.createElement('nav');
-    headerContainer.id = 'header';
-    document.body.prepend(container);
-  }
-
-  fetch(caminhoHeader()).then(r => r.text()).then(console.log)
-  .then(response => response.text())
-  .then(data => {
-    container.innerHTML = data;
-
-    montarBotoesNav();
-  })
-  .catch(err => console.error('Erro ao carregar header:', err));
-}
-
-
-function montarBotoesNav() {
-  const nav = document.getElementById('navLinks');
-  if (!nav) return;
-
-  const page = location.pathname.split('/').pop();
-  const userLogged = false;
-  nav.innerHTML = '';
-
-
-  const make = (txt, href) => {
-    const a = document.createElement('a');
-    a.textContent = txt;
-    a.href = href;
-    a.className = 'nav-button';
-    return a;
-  };
-
-  if (page === '' || page === 'index.html') {
-  if (userLogged) {
-    nav.append(make('Perfil', 'subPaginas/perfil/perfil.html'));
-  } else {
-    nav.append(make('Login', 'subPaginas/login/login.html'),
-               make('Sign up', 'subPaginas/cadastro/cadastro.html'));
-  }
-}
-
-if (page === 'perfil.html') {
-  nav.append(make('Voltar', '../../index.html'));
-}
-
-if (page === 'login.html') {
-  nav.append(make('Index', '../../index.html'),
-             make('Sign up', '../cadastro/cadastro.html'));
-}
-
-if (page === 'cadastro.html') {
-  nav.append(make('Login', '../login/login.html'),
-             make('Index', '../../index.html'));
-}
-}
-
-carregarHeader();

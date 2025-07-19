@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 msg.style.color = 'lightgreen';
                 localStorage.setItem('userEmail', email)
                 localStorage.setItem('userId', dados.userId)
+                localStorage.setItem('usuarioLogado', 'true');
                 window.location.href = '../perfil/perfil.html'
             } else {
                 msg.textContent = dados.erro || 'Erro no login';
