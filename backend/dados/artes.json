@@ -9,7 +9,7 @@
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Scream.jpg",
     "descricao": "Expressa angústia e desespero de forma intensa e surreal."
   },
-  {
+    {
     "id": 2,
     "titulo": "A Noite Estrelada",
     "autor": "Vincent van Gogh",
@@ -19,7 +19,7 @@
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
     "descricao": "Uma das obras mais famosas de Van Gogh, mostrando a vista noturna da sua janela no asilo."
   },
-  {
+    {
     "id": 3,
     "titulo": "Monalisa",
     "autor": "Leonardo da Vinci",
@@ -29,7 +29,7 @@
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mona_Lisa.jpg",
     "descricao": "Talvez o retrato mais icônico da história da arte ocidental."
   },
-  {
+    {
     "id": 4,
     "titulo": "A Última Ceia",
     "autor": "Leonardo da Vinci",
@@ -40,7 +40,7 @@
     "descricao": "Pintura mural representando a última ceia de Jesus com seus discípulos."
   },
     {
-    "id": 4,
+    "id": 5,
     "titulo": "O Nascimento de Vênus",
     "autor": "andro Botticelli",
     "ano": 1486,
@@ -49,8 +49,8 @@
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1024px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
     "descricao": "Representação da deusa Vênus emergindo do mar sobre uma concha."
   },
-  {
-    "id": 5,
+    {
+    "id": 6,
     "titulo": "A Persistência da Memória",
     "autor": "Salvador Dalí",
     "ano": 1931,
@@ -59,8 +59,8 @@
     "imagem": "https://upload.wikimedia.org/wikipedia/pt/5/59/A_Persist%C3%AAncia_da_Mem%C3%B3ria.jpg",
     "descricao": "Surrealismo com relógios derretidos simbolizando a relatividade do tempo."
   },
-  {
-    "id": 6,
+    {
+    "id": 7,
     "titulo": "Guernica",
     "autor": "Pablo Picasso",
     "ano": 1937,
@@ -69,8 +69,8 @@
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Mural_del_Gernika.jpg/1024px-Mural_del_Gernika.jpg",
     "descricao": "Representação poderosa do bombardeio de Guernica durante a Guerra Civil Espanhola."
   },
-  {
-    "id": 7,
+    {
+    "id": 8,
     "titulo": "O Jardim das Delícias Terrenas",
     "autor": "Hieronymus Bosch",
     "ano": 1500,
@@ -78,5 +78,125 @@
     "pais": "Países Baixos",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg/1024px-The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg",
     "descricao": "Tríptico que mostra o paraíso, o mundo terrestre e o inferno."
+  },
+    {
+    "id": 9,
+    "titulo": "As Meninas",
+    "autor": "Diego Velázquez",
+    "ano": 1656,
+    "continente": "Europa",
+    "pais": "Espanha",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/800px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg",
+    "descricao": "Um dos mais famosos retratos do barroco espanhol, com jogo de perspectivas."
+  },
+    {
+    "id": 10,
+    "titulo": "Liberdade Guiando o Povo",
+    "autor": "Eugène Delacroix",
+    "ano": 1830,
+    "continente": "Europa",
+    "pais": "França",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/1024px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+    "descricao": "Símbolo da luta pela liberdade durante a Revolução Francesa."
+  },
+    {
+    "id": 11,
+    "titulo": "O Beijo",
+    "autor": "Gustav Klimt",
+    "ano": 1907,
+    "continente": "Europa",
+    "pais": "Áustria",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/1024px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+    "descricao": "Obra-prima do movimento Art Nouveau com uso marcante do dourado."
+  },
+    {
+    "id": 12,
+    "titulo": "A Grande Onda de Kanagawa",
+    "autor": "Hokusai",
+    "ano": 1831,
+    "continente": "Ásia",
+    "pais": "Japão",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Great_Wave_off_Kanagawa2.jpg/1024px-Great_Wave_off_Kanagawa2.jpg",
+    "descricao": "Gravura icônica da arte japonesa representando uma enorme onda ameaçadora."
+  },
+    {
+    "id": 13,
+    "titulo": "Campbell's Soup Cans",
+    "autor": "Andy Warhol",
+    "ano": 1962,
+    "continente": "América",
+    "pais": "Estados Unidos",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg/1024px-Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg",
+    "descricao": "Obra que marcou o movimento pop art e o consumo em massa."
+  },
+    {
+    "id": 14,
+    "titulo": "Os Girassóis",
+    "autor": "Vincent van Gogh",
+    "ano": 1888,
+    "continente": "Europa",
+    "pais": "Países Baixos",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Vincent_Willem_van_Gogh_128.jpg/800px-Vincent_Willem_van_Gogh_128.jpg",
+    "descricao": "Uma série de pinturas focadas na beleza dos girassóis em diferentes fases."
+  },
+  {
+    "id": 15,
+    "titulo": "Abaporu",
+    "autor": "Tarsila do Amaral",
+    "ano": 1928,
+    "continente": "América",
+    "pais": "Brasil",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/b/bd/Abaporu.jpg",
+    "descricao": "Símbolo do movimento antropofágico e uma das obras mais icônicas da arte moderna brasileira."
+  },
+  {
+    "id": 16,
+    "titulo": "Operários",
+    "autor": "Tarsila do Amaral",
+    "ano": 1933,
+    "continente": "América",
+    "pais": "Brasil",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/1/16/Operarios.jpg",
+    "descricao": "Retrato das diferentes origens dos trabalhadores urbanos na industrialização do Brasil."
+  },
+  {
+    "id": 17,
+    "titulo": "O Lavrador de Café",
+    "autor": "Cândido Portinari",
+    "ano": 1934,
+    "continente": "América",
+    "pais": "Brasil",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/e/e2/O_Lavrador_de_Caf%C3%A9_-_C%C3%A2ndido_Portinari_1934.jpg",
+    "descricao": "Figura forte e simbólica do trabalhador rural brasileiro, em estilo expressionista."
+  },
+  {
+    "id": 18,
+    "titulo": "A Dança",
+    "autor": "Henri Matisse",
+    "ano": 1910,
+    "continente": "Europa",
+    "pais": "França",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/St_petersburg_2018_hermitage_general_staff_matisse_dance_%2845668049025%29.jpg/1024px-St_petersburg_2018_hermitage_general_staff_matisse_dance_%2845668049025%29.jpg",
+    "descricao": "Representação vibrante do movimento e da liberdade em uma composição com cores fortes e figuras nuas dançando."
+  },
+  {
+    "id": 19,
+    "titulo": "Nighthawks",
+    "autor": "Edward Hopper",
+    "ano": 1942,
+    "continente": "América",
+    "pais": "Estados Unidos",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nighthawks_by_Edward_Hopper_1942.jpg/1024px-Nighthawks_by_Edward_Hopper_1942.jpg",
+    "descricao": "Cena noturna de um bar americano que transmite solidão e silêncio urbano."
+  },
+  {
+    "id": 20,
+    "titulo": "O Casal Arnolfini",
+    "autor": "Jan van Eyck",
+    "ano": 1434,
+    "continente": "Europa",
+    "pais": "Países Baixos",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/The_Arnolfini_portrait_%281434%29.jpg/800px-The_Arnolfini_portrait_%281434%29.jpg",
+    "descricao": "Retrato cheio de simbolismos que marca o início da pintura flamenga com precisão impressionante nos detalhes."
   }
 ]
