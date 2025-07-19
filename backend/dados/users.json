@@ -18,5 +18,10 @@
     "id": 4,
     "email": "celmarosa@x.com",
     "senha": "123"
+  },
+  {
+    "id": 5,
+    "email": "thiago@x.com",
+    "senha": "123"
   }
 ]
